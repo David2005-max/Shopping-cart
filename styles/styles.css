@@ -1,0 +1,76 @@
+#container {
+    display: flex;
+}
+
+main {
+    background-color: aliceblue;
+}
+
+#leftbox {
+    width: 60%;
+    margin: 1%;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+#rightbox {
+    width: 30%;
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flex1 {
+    display: flex;
+    align-items: center;
+   
+}
+
+.remove-button {
+    height: 30px;
+    
+}
+
+.add-button {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+   
+}
+
+#middlebox {
+    margin-right: 50px;
+}
+
+.check {
+    text-align: center;
+    margin-left: 30px;
+    background-color: orange;
+    width: 80%;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 20px;
+   
+    
+
+}
